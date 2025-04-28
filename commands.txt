@@ -1,0 +1,22 @@
+mkdir curso-git-embarcatech 
+cd curso-git-embarcatech 
+
+git init
+
+git config --global user.name "Heitor Queiroga Duarte"
+git config --global user.email heitorqueiroga1@hotmail.com
+
+touch readme.txt
+nano readme.txt 
+# escrever dados do arquivo
+
+git config --global --add safe.directory '/mnt/140DF90E4E980D43/Documents/if lessons/Embarcatech/residencia/curso-git-embarcatech'
+git add .
+git commit -m "first commit"
+
+touch commands.txt
+nano commands.txt
+# escrever dados do arquivo
+
+git add .
+git commit -m "adding commands list"
